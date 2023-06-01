@@ -1,0 +1,58 @@
+.selected {
+  background-color: aquamarine;
+  color: rgb(152, 118, 34);
+}
+div.categoryText{
+  padding: auto;
+  margin: 3em 0 2em 0;
+  text-align: center;
+  color: rgb(105, 104, 103);
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 2em 0;
+}
+.tbadgy{
+  display: flex;
+  margin: 1em 0 1em 0;
+  font-size: medium;
+  width: 100%;
+}
+.prize{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.description{
+  width: 80%;
+}
+
+.red {
+  width: 3.8em;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(169, 44, 44);
+  color: white;
+  font-size: x-small;
+  margin-left: 1em;
+}
+.green {
+  font-size: x-small;
+  width: 4em;
+  text-align: center;
+  color: white;
+  background-color: rgb(47, 107, 47);
+  margin-left: 1em;
+}
+
+.img{
+  width: 5em;
+  height: 5em;
+  margin: 0 1em 0 1em;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgb(105, 104, 103); 
+  /* despues quitar border */
+}
