@@ -1,58 +1,63 @@
-.selected {
-  background-color: aquamarine;
-  color: rgb(152, 118, 34);
+ul {
+  width: 85%;
 }
-div.categoryText{
-  padding: auto;
-  margin: 3em 0 2em 0;
-  text-align: center;
-  color: rgb(105, 104, 103);
-}
-.list{
+
+.category {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 0 2em 0;
 }
-.tbadgy{
-  display: flex;
-  margin: 1em 0 1em 0;
-  font-size: medium;
-  width: 100%;
+
+.list {
+  padding: auto;
+  padding-bottom: 2em;
+  margin: 0em 0 2em 0;
+  border-bottom: solid 1px #ebebeb;
 }
-.prize{
+
+/* Css para el precio */
+.prize {
   display: flex;
   justify-content: flex-end;
   font-weight: bold;
 }
-.description{
-  width: 80%;
+/* Css para la descripcion*/
+.description {
+  width: 90%;
+  color: #8d96a1;
 }
 
+/* Css para el texto junto al badgy*/
+.tbadgy {
+  display: flex;
+  margin: 0.5em 0 0.2em 0;
+  font-weight: 500;
+}
+
+/* Css para el bardgy rojo*/
 .red {
-  width: 3.8em;
-  text-align: center;
-  align-items: center;
-  background-color: rgb(169, 44, 44);
+  padding: 0.2em 0.8em;
+  background-color: #d74a3a;
   color: white;
   font-size: x-small;
   margin-left: 1em;
 }
+/* Css para el bardgy verde*/
 .green {
   font-size: x-small;
-  width: 4em;
-  text-align: center;
   color: white;
-  background-color: rgb(47, 107, 47);
+  background-color: #70a967;
   margin-left: 1em;
+  padding: 0.2em 0.8em;
 }
-
-.img{
+/* Css para las imagenes */
+.img {
   width: 5em;
   height: 5em;
   margin: 0 1em 0 1em;
   border-radius: 50%;
   overflow: hidden;
-  border: 1px solid rgb(105, 104, 103); 
+  border: 1px solid rgb(105, 104, 103);
   /* despues quitar border */
 }

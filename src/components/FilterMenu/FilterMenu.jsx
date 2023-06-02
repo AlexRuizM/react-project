@@ -2,42 +2,19 @@ import classes from "./FilterMenu.module.css";
 import { useState } from "react";
 import data from "../../db/db.json";
 
-const FilterMenu = () => {
-  const [categoria, setCategoria] = useState("starters"); // esto hace que se muestre la categoria por defecto
-  const categorias = Object.keys(data); // esto hace que se muestren las categorias en el menu
+const FilterMenu = ({ categoria }) => {
   const menuItems = categoria ? data[categoria] : []; // esto hace que si no hay categoria, no muestre nada
-
-  const handleCategoria = (categoria) => {
-    setCategoria(categoria); // esto hace que se muestren los items de cada categoria
-  };
 
   return (
     <div className={classes.category}>
-      <div className={classes.categoryText}>
-        {categorias.map(
-          (
-            categoriaItem // esto hace que se muestren las categorias en el menu
-          ) => (
-            <h3
-              key={categoriaItem}
-              onClick={() => handleCategoria(categoriaItem)}
-              className={
-                categoria === categoriaItem ? "selected" : "notSelected"
-              }
-            >
-              {categoriaItem.toUpperCase()}
-            </h3>
-          )
-        )}
-      </div>
-      <ul className={classes.list}>
+      <ul>
         {menuItems.map((item) => (
-          <li key={item.id}>
+          <li className={classes.list} key={item.id}>
             <div className={classes.img}>
               <img src={item.img} alt={item.nombre} />
             </div>
             <p className={classes.tbadgy}>
-              <strong>{item.nombre}</strong>
+              {item.nombre}
               {item.badgy && (
                 <p
                   className={`${

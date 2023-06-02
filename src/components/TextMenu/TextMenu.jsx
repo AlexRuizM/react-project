@@ -3,8 +3,8 @@ import classes from "./TextMenu.module.css";
 const TextMenu = () => {
   return (
     <div className={classes.menuText}>
-      <h3>SPECIAL MENU</h3>
-      <h2> DISCOVER MENU</h2>
+      <p>{"Special menu".toUpperCase()}</p>
+      <h3> {"discover menu".toUpperCase()}</h3>
     </div>
   );
 };

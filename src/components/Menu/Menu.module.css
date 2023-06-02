@@ -1,0 +1,15 @@
+.selected {
+  color: #cd9452;
+}
+div.categoryText {
+  padding: auto;
+  margin: 3em 0 2em 0;
+  text-align: center;
+  color: #8d96a1;
+}
+
+div.categoryText p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 1.5em;
+}

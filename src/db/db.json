@@ -197,7 +197,7 @@
       "img": "../img/menu/menu_08.jpg"
     }
   ],
-  "dessert": [
+  "desserts": [
     {
       "id": 25,
       "nombre": "Cheesecake de fresa",

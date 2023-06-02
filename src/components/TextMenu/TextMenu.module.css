@@ -1,7 +1,14 @@
-.menuText{
+.menuText {
   margin-top: 2em;
   text-align: center;
+  font-weight: lighter;
+}
+.menuText p {
+  color: #cd9452;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0.5em;
 }
 .menuText h3 {
-  color: rgb(152, 118, 34);
+  font-size: 1.8em;
 }
