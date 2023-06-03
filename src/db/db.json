@@ -4,7 +4,7 @@
       "id": 1,
       "nombre": "Hamburguesa clásica",
       "descripcion": "Deliciosa hamburguesa con queso y vegetales frescos",
-      "precio": 9.99,
+      "precio": "09.99",
       "badgy": "new",
       "img": "../img/menu/menu_01.jpg"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "nombre": "Pizza Margherita",
       "descripcion": "Pizza con salsa de tomate, mozzarella y albahaca",
-      "precio": 11.99,
+      "precio": "11.99",
       "badgy": null,
       "img": "../img/menu/menu_02.jpg"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "nombre": "Pasta Alfredo",
       "descripcion": "Pasta con salsa Alfredo cremosa y pollo a la parrilla",
-      "precio": 12.99,
+      "precio": "12.99",
       "badgy": "hot",
       "img": "../img/menu/menu_03.jpg"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "nombre": "Sushi variado",
       "descripcion": "Selección de sushi fresco y sabroso",
-      "precio": 14.99,
+      "precio": "14.99",
       "badgy": null,
       "img": "../img/menu/menu_04.jpg"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "nombre": "Churrasco de res",
       "descripcion": "Churrasco jugoso acompañado de papas fritas",
-      "precio": 16.99,
+      "precio": "16.99",
       "badgy": "new",
       "img": "../img/menu/menu_05.jpg"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "nombre": "Lasaña de carne",
       "descripcion": "Lasaña casera con carne molida y salsa de tomate",
-      "precio": 13.99,
+      "precio": "13.99",
       "badgy": null,
       "img": "../img/menu/menu_06.jpg"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "nombre": "Parrillada mixta",
       "descripcion": "Variedad de carnes a la parrilla con acompañamientos",
-      "precio": 18.99,
+      "precio": "18.99",
       "badgy": null,
       "img": "../img/menu/menu_07.jpg"
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "nombre": "Burrito de pollo",
       "descripcion": "Burrito relleno de pollo, frijoles y queso",
-      "precio": 10.99,
+      "precio": "10.99",
       "badgy": null,
       "img": "../img/menu/menu_08.jpg"
     }
@@ -70,7 +70,7 @@
       "id": 9,
       "nombre": "Filete de res",
       "descripcion": "Jugoso filete de res a la parrilla",
-      "precio": 16.99,
+      "precio": "16.99",
       "badgy": null,
       "img": "../img/menu/menu_08.jpg"
     },
@@ -78,7 +78,7 @@
       "id": 10,
       "nombre": "Pollo al curry",
       "descripcion": "Pollo tierno cocinado en salsa de curry",
-      "precio": 13.99,
+      "precio": "13.99",
       "badgy": null,
       "img": "../img/menu/menu_07.jpg"
     },
@@ -86,7 +86,7 @@
       "id": 11,
       "nombre": "Salmón a la parrilla",
       "descripcion": "Salmón fresco a la parrilla con especias",
-      "precio": 15.99,
+      "precio": "15.99",
       "badgy": "hot",
       "img": "../img/menu/menu_06.jpg"
     },
@@ -94,7 +94,7 @@
       "id": 12,
       "nombre": "Costillas de cerdo BBQ",
       "descripcion": "Costillas de cerdo glaseadas con salsa barbacoa",
-      "precio": 17.99,
+      "precio": "17.99",
       "badgy": null,
       "img": "../img/menu/menu_05.jpg"
     },
@@ -102,7 +102,7 @@
       "id": 13,
       "nombre": "Pollo frito crujiente",
       "descripcion": "Pollo frito con rebozado crujiente",
-      "precio": 12.99,
+      "precio": "12.99",
       "badgy": "new",
       "img": "../img/menu/menu_04.jpg"
     },
@@ -110,7 +110,7 @@
       "id": 14,
       "nombre": "Tacos de carne asada",
       "descripcion": "Tacos con carne asada, cebolla y cilantro",
-      "precio": 11.99,
+      "precio": "11.99",
       "badgy": null,
       "img": "../img/menu/menu_03.jpg"
     },
@@ -118,7 +118,7 @@
       "id": 15,
       "nombre": "Chuletas de cerdo",
       "descripcion": "Chuletas de cerdo a la parrilla con salsa",
-      "precio": 14.99,
+      "precio": "14.99",
       "badgy": null,
       "img": "../img/menu/menu_02.jpg"
     },
@@ -126,7 +126,7 @@
       "id": 16,
       "nombre": "Parrillada de mariscos",
       "descripcion": "Mariscos a la parrilla con sabor a mar",
-      "precio": 19.99,
+      "precio": "19.99",
       "badgy": null,
       "img": "../img/menu/menu_01.jpg"
     }
@@ -136,7 +136,7 @@
       "id": 17,
       "nombre": "Ensalada César",
       "descripcion": "Ensalada fresca con pollo a la parrilla y aderezo cremoso",
-      "precio": 7.99,
+      "precio": "07.99",
       "badgy": null,
       "img": "../img/menu/menu_01.jpg"
     },
@@ -144,7 +144,7 @@
       "id": 18,
       "nombre": "Wrap de vegetales",
       "descripcion": "Wrap relleno de vegetales frescos y aderezo de yogur",
-      "precio": 8.99,
+      "precio": "08.99",
       "badgy": null,
       "img": "../img/menu/menu_02.jpg"
     },
@@ -152,7 +152,7 @@
       "id": 19,
       "nombre": "Lasaña vegetariana",
       "descripcion": "Lasaña con capas de verduras y salsa de tomate",
-      "precio": 10.99,
+      "precio": "10.99",
       "badgy": null,
       "img": "../img/menu/menu_03.jpg"
     },
@@ -160,7 +160,7 @@
       "id": 20,
       "nombre": "Enchiladas de queso",
       "descripcion": "Enchiladas rellenas de queso y salsa picante",
-      "precio": 9.99,
+      "precio": "09.99",
       "badgy": null,
       "img": "../img/menu/menu_04.jpg"
     },
@@ -168,7 +168,7 @@
       "id": 21,
       "nombre": "Burger vegetariana",
       "descripcion": "Hamburguesa vegetariana con queso y vegetales",
-      "precio": 9.99,
+      "precio": "09.99",
       "badgy": null,
       "img": "../img/menu/menu_05.jpg"
     },
@@ -176,7 +176,7 @@
       "id": 22,
       "nombre": "Pasta primavera",
       "descripcion": "Pasta con vegetales frescos y salsa de tomate",
-      "precio": 11.99,
+      "precio": "11.99",
       "badgy": null,
       "img": "../img/menu/menu_06.jpg"
     },
@@ -184,7 +184,7 @@
       "id": 23,
       "nombre": "Tacos de verduras",
       "descripcion": "Tacos rellenos de verduras y guacamole",
-      "precio": 8.99,
+      "precio": "08.99",
       "badgy": null,
       "img": "../img/menu/menu_07.jpg"
     },
@@ -192,7 +192,7 @@
       "id": 24,
       "nombre": "Curry de verduras",
       "descripcion": "Curry de verduras mixtas con arroz",
-      "precio": 12.99,
+      "precio": "12.99",
       "badgy": null,
       "img": "../img/menu/menu_08.jpg"
     }
@@ -202,7 +202,7 @@
       "id": 25,
       "nombre": "Cheesecake de fresa",
       "descripcion": "Delicioso cheesecake con salsa de fresa",
-      "precio": 6.99,
+      "precio": "06.99",
       "badgy": null,
       "img": "../img/menu/menu_07.jpg"
     },
@@ -210,7 +210,7 @@
       "id": 26,
       "nombre": "Brownie de chocolate",
       "descripcion": "Brownie caliente con helado de vainilla",
-      "precio": 5.99,
+      "precio": "05.99",
       "badgy": null,
       "img": "../img/menu/menu_06.jpg"
     },
@@ -218,7 +218,7 @@
       "id": 27,
       "nombre": "Tiramisú",
       "descripcion": "Postre italiano con bizcochos, café y crema",
-      "precio": 7.99,
+      "precio": "07.99",
       "badgy": null,
       "img": "../img/menu/menu_05.jpg"
     },
@@ -226,7 +226,7 @@
       "id": 28,
       "nombre": "Helado de vainilla",
       "descripcion": "Clásico helado de vainilla con cobertura",
-      "precio": 4.99,
+      "precio": "04.99",
       "badgy": null,
       "img": "../img/menu/menu_03.jpg"
     },
@@ -234,7 +234,7 @@
       "id": 29,
       "nombre": "Crepas de Nutella",
       "descripcion": "Crepas rellenas de Nutella y plátano",
-      "precio": 6.99,
+      "precio": "06.99",
       "badgy": null,
       "img": "../img/menu/menu_02.jpg"
     },
@@ -242,15 +242,15 @@
       "id": 30,
       "nombre": "Pastel de zanahoria",
       "descripcion": "Pastel esponjoso con zanahoria y nueces",
-      "precio": 6.99,
+      "precio": "06.99",
       "badgy": null,
-      "img": "../img/menu/menu08.jpg"
+      "img": "../img/menu/menu_08.jpg"
     },
     {
       "id": 31,
       "nombre": "Flan de caramelo",
       "descripcion": "Flan casero con deliciosa salsa de caramelo",
-      "precio": 5.99,
+      "precio": "05.99",
       "badgy": null,
       "img": "../img/menu/menu_01.jpg"
     },
@@ -258,7 +258,7 @@
       "id": 32,
       "nombre": "Mousse de chocolate",
       "descripcion": "Mousse de chocolate cremoso y ligero",
-      "precio": 5.99,
+      "precio": "05.99",
       "badgy": null,
       "img": "../img/menu/menu_04.jpg"
     }
@@ -268,7 +268,7 @@
       "id": 33,
       "nombre": "Refresco de cola",
       "descripcion": "Refresco de cola frío y burbujeante",
-      "precio": 2.99,
+      "precio": "02.99",
       "badgy": null,
       "img": "../img/menu/menu_01.jpg"
     },
@@ -276,7 +276,7 @@
       "id": 34,
       "nombre": "Agua mineral",
       "descripcion": "Agua mineral natural en botella",
-      "precio": 1.99,
+      "precio": "01.99",
       "badgy": null,
       "img": "../img/menu/menu_02.jpg"
     },
@@ -284,7 +284,7 @@
       "id": 35,
       "nombre": "Limonada",
       "descripcion": "Limonada refrescante con hielo",
-      "precio": 3.99,
+      "precio": "03.99",
       "badgy": null,
       "img": "../img/menu/menu_03.jpg"
     },
@@ -292,7 +292,7 @@
       "id": 36,
       "nombre": "Té helado",
       "descripcion": "Té frío con limón y hierbas aromáticas",
-      "precio": 2.99,
+      "precio": "02.99",
       "badgy": null,
       "img": "../img/menu/menu_04.jpg"
     },
@@ -300,7 +300,7 @@
       "id": 37,
       "nombre": "Café espresso",
       "descripcion": "Café espresso intenso y aromático",
-      "precio": 3.99,
+      "precio": "03.99",
       "badgy": null,
       "img": "../img/menu/menu_05.jpg"
     },
@@ -308,7 +308,7 @@
       "id": 38,
       "nombre": "Smoothie de frutas",
       "descripcion": "Batido de frutas frescas y yogur",
-      "precio": 4.99,
+      "precio": "04.99",
       "badgy": null,
       "img": "../img/menu/menu_06.jpg"
     },
@@ -316,7 +316,7 @@
       "id": 39,
       "nombre": "Cerveza artesanal",
       "descripcion": "Cerveza artesanal con diferentes sabores",
-      "precio": 5.99,
+      "precio": "05.99",
       "badgy": null,
       "img": "../img/menu/menu_07.jpg"
     },
@@ -324,7 +324,7 @@
       "id": 40,
       "nombre": "Cóctel de frutas",
       "descripcion": "Cóctel refrescante con mezcla de frutas",
-      "precio": 6.99,
+      "precio": "06.99",
       "badgy": null,
       "img": "../img/menu/menu_08.jpg"
     }

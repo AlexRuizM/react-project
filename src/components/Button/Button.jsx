@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <div className={classes.divButton}>
       <button className={classes.buttonMenu}>
-        VIEW FULL MENU
+      {"View Full Menu".toUpperCase()}
       </button>
     </div>
   );

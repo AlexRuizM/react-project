@@ -6,6 +6,7 @@ div.categoryText {
   margin: 3em 0 2em 0;
   text-align: center;
   color: #8d96a1;
+  cursor: pointer;
 }
 
 div.categoryText p {

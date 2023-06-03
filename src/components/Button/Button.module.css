@@ -13,3 +13,9 @@
   margin: 2em;
   font-weight: bold;
 }
+.buttonMenu:hover {
+  background-color: white;
+  color: #cd9452;
+  border: 2px solid #cd9452;
+  cursor: pointer;
+}
