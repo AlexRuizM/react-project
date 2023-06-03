@@ -1,11 +1,16 @@
 import classes from "./Menu.module.css";
 
-const Menu = ({
+interface MenuProps {
+  categorias: string[];
+  categoriaSeleccionada: string;
+  onCategoriaSeleccionada: (categoria: string) => void;
+}
+
+const Menu: React.FC<MenuProps> = ({
   categorias,
   categoriaSeleccionada,
   onCategoriaSeleccionada,
 }) => {
-
   return (
     <div className={classes.categoryText}>
       {categorias.map(

@@ -1,5 +1,4 @@
 import classes from "./FilterMenu.module.css";
-import data from "../../db/db.json";
 import menuImg1 from "../../img/menu/menu_01.jpg";
 import menuImg2 from "../../img/menu/menu_02.jpg";
 import menuImg3 from "../../img/menu/menu_03.jpg";
@@ -9,7 +8,20 @@ import menuImg6 from "../../img/menu/menu_06.jpg";
 import menuImg7 from "../../img/menu/menu_07.jpg";
 import menuImg8 from "../../img/menu/menu_08.jpg";
 
-const imageMap = {
+interface MenuItem {
+  id: number;
+  nombre: string;
+  descripcion: string;
+  precio: string | number;
+  badgy: string | null;
+  img: string;
+}
+
+interface FilterMenuProps {
+  categoria: string;
+}
+
+const imageMap: Record<string, string> = {
   "../img/menu/menu_01.jpg": menuImg1,
   "../img/menu/menu_02.jpg": menuImg2,
   "../img/menu/menu_03.jpg": menuImg3,
@@ -20,9 +32,11 @@ const imageMap = {
   "../img/menu/menu_08.jpg": menuImg8,
 };
 
-const FilterMenu = ({ categoria }) => {
-  const menuItems = categoria ? data[categoria] : []; // esto hace que si no hay categoria, no muestre nada
-
+const FilterMenu: React.FC<FilterMenuProps> = ({ categoria }) => {
+  const data = require("../../db/db.json");
+  const menuItems: MenuItem[] = categoria
+    ? (data[categoria] as MenuItem[])
+    : []; // esto hace que si no hay categoria, no muestre nada
   return (
     <div className={classes.category}>
       <ul>
