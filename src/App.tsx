@@ -1,16 +1,16 @@
 import "./App.module.css";
-import TextMenu from "./components/TextMenu/TextMenu";
-import FilterMenu from "./components/FilterMenu/FilterMenu";
 import Menu from "./components/Menu/Menu";
 import Button from "./components/Button/Button";
+import TextMenu from "./components/TextMenu/TextMenu";
+import FilterMenu from "./components/FilterMenu/FilterMenu";
 import { useState } from "react";
 
-const App = () => {
-  const categorias = ['starters', 'nonveg', 'vegetarian','desserts', 'drinks'];
+const App = (): JSX.Element => {
+  const categorias = ["starters", "nonveg", "vegetarian", "desserts", "drinks"];
   const [categoriaSeleccionada, setCategoriaSeleccionada] =
     useState("starters");
 
-  const handleCategoriaSeleccionada = (categoria) => {
+  const handleCategoriaSeleccionada = (categoria: string) => {
     setCategoriaSeleccionada(categoria);
   };
   return (
